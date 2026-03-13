@@ -1,20 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --green-palette-1: #5d7b6f;
-  --green-palette-2: #a4c3a2;
-  --green-palette-3: #b0d4b8;
-  --green-palette-4: #eae7d6;
-  --green-palette-5: #d7f9fa;
+  /* Dải màu mới: Romantic Earth & Rose */
+  --green-palette-1: #6b7a8f;
+  /* Xanh đá (Steel Blue) - Trầm mặc, tin cậy */
+  --green-palette-2: #c78283;
+  /* Hồng tro (Muted Rose) - Lãng mạn, ấm áp */
+  --green-palette-3: #e1b382;
+  /* Màu cát (Sand) - Nhẹ nhàng, tự nhiên */
+  --green-palette-4: #f4ece1;
+  /* Kem lụa (Silk) - Nền hoàn hảo, sang trọng */
+  --green-palette-5: #a8b2a1;
+  /* Xanh lá nhạt (Dusty Sage) - Sự tươi mới */
 
-  /* Default Light Theme */
+  /* Áp dụng dải màu cho giao diện/logo (Theme) */
   --bg-primary: var(--green-palette-4);
-  --bg-secondary: #f4f2e8;
-  --text-primary: #2d3d37;
+  /* Nền chính (Kem lụa) */
+  --bg-secondary: #ffffff;
+  /* Nền trắng tinh khôi */
+  --text-primary: #3d3535;
+  /* Nền nâu đen đậm (Tránh màu đen thuần cho đỡ gắt) */
   --text-secondary: var(--green-palette-1);
+  /* Chữ phụ (Xanh đá) */
   --accent: var(--green-palette-2);
-  --border: rgba(93, 123, 111, 0.1);
-  --glass: rgba(234, 231, 214, 0.8);
+  /* Điểm nhấn (Hồng tro) - Rất hợp cho logo Alexi */
+  --border: rgba(199, 130, 131, 0.2);
+  /* Viền hồng nhạt */
+  --glass: rgba(244, 236, 225, 0.85);
+  /* Hiệu ứng kính mờ ấm áp */
 }
 
 @media (prefers-color-scheme: dark) {

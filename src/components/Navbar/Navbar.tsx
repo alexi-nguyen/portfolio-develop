@@ -19,7 +19,7 @@ export default function Navbar() {
           </div>
           <span className="text-palette-2">Alexi</span>
         </motion.div>
-        
+
         <div className="hidden md:flex gap-10 items-center">
           {["Projects", "Skills", "Contact"].map((item) => (
             <a
